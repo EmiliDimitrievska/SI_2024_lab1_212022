@@ -1,0 +1,56 @@
+emili@DESKTOP-0M633SV MINGW64 ~/SI_2024_lab1_212022 (master)
+$ git log
+commit 522db2c90d877ea23201c00ae3d848e3a9a406ec (HEAD -> master, bug2)
+Author: EmiliDimitrievska <emili.dimitrievska@students.finki.ukim.mk>
+Date:   Sat Apr 13 11:56:15 2024 +0200
+
+    Conflict Resolved
+
+commit b5aef3e6c37d355920cf02f2dba02fd681f53916
+Author: EmiliDimitrievska <emili.dimitrievska@students.finki.ukim.mk>
+Date:   Fri Apr 12 16:53:42 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 5de38a2b8a928e1d6485a9357e5a82b70ab772b6 (origin/master, origin/bug1, bug1)
+Author: EmiliDimitrievska <emili.dimitrievska@students.finki.ukim.mk>
+Date:   Fri Apr 12 17:03:19 2024 +0200
+
+    Call method filterOddLengthStrings
+
+commit dfa53918edcbab1c630d5fc8fd245d839bce9c18
+Author: EmiliDimitrievska <emili.dimitrievska@students.finki.ukim.mk>
+Date:   Fri Apr 12 14:59:52 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 4a8947dcb7020ab053fc44bdccab9e4ec84a0e6c
+Merge: 9b606b6 2e577fa
+Author: EmiliDimitrievska <emili.dimitrievska@students.finki.ukim.mk>
+Date:   Fri Apr 12 14:21:43 2024 +0200
+
+    Merge branch 'master' of https://github.com/EmiliDimitrievska/SI_2024_lab1_212022
+
+commit 9b606b684802587710d4024f823542877a84e2ce
+Author: EmiliDimitrievska <emili.dimitrievska@students.finki.ukim.mk>
+Date:   Fri Apr 12 13:17:08 2024 +0200
+
+    Add starter code
+
+commit 2e577fac3bc4f07ae1d141a66dff9368062d58e3
+Author: Emili Dimitrievska <126581303+EmiliDimitrievska@users.noreply.github.com>
+Date:   Fri Apr 12 00:54:04 2024 +0200
+
+    Delete README.md
+
+commit 40fe3c551c8fb6951c8c7f57f1391fd27a23cf65
+Author: EmiliDimitrievska <emili.dimitrievska@students.finki.ukim.mk>
+Date:   Fri Apr 12 00:48:35 2024 +0200
+
+    Initial commit
+
+commit 91cdedd11d5131a539e4e71d353d24e8d7394d21
+Author: Emili Dimitrievska <126581303+EmiliDimitrievska@users.noreply.github.com>
+Date:   Thu Apr 11 20:03:18 2024 +0200
+
+    Initial commit

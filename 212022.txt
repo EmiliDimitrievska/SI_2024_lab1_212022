@@ -1,0 +1,82 @@
+
+mkdir SI_2024_lab1_212022
+cd SI_2024_lab1_212022
+git init
+git remote add origin https://github.com/EmiliDimitrievska/SI_2024_lab1_212022.git
+git status
+nano README.md
+git add README.md
+git commit -m "Initial commit"
+git status
+$ nano SlLab1Main.java
+$ nano SlLab1_1.java
+$ nano SlLab1_2.java
+git status
+git add .
+$ git commit -m "Add starter code"
+$ git status
+git pull origin master --allow-unrelated-histories
+$ git push origin master
+$ git checkout -b bug1
+$ git checkout -b bug2
+$ git checkout bug1
+$ git checkout master 
+$ nano SlLab1_1.java
+emili@DESKTOP-0M633SV MINGW64 ~/SI_2024_lab1_212022 (master)
+$ git checkout bug2
+Switched to branch 'bug2'
+$ git checkout SlLab1_2.java
+$ nano SlLab1_2.java
+$ git add SlLab1_2.java
+$ git commit -m "Fix wrong condition in makeBigStringFrom"
+$ checkout bug1
+$ nano SlLab1Main.java
+$ git add SlLab1Main.java
+$ git commit -m "Call method filterOddLengthStrings"
+$ git checkout bug2
+$ nano SlLab1Main.java
+$ git status
+$ git add SlLab1Main.java
+$ git commit -m "Call method makeBigStringFrom in main class"
+
+$ git push origin --all
+20. $ git checkout master
+emili@DESKTOP-0M633SV MINGW64 ~/SI_2024_lab1_212022 (master)
+$ git merge bug1
+Updating 4a8947d..5de38a2
+Fast-forward
+ SlLab1Main.java | 1 +
+ SlLab1_1.java   | 2 +-
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+-> кога го споив master со bug1 немаше конфликт
+
+22. git checkout bug2
+$ git rebase master
+Auto-merging SlLab1Main.java
+CONFLICT (content): Merge conflict in SlLab1Main.java
+error: could not apply f364f40... Call method makeBigStringFrom in main class
+hint: Resolve all conflicts manually, mark them as resolved with
+hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+hint: You can instead skip this commit: run "git rebase --skip".
+hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+Could not apply f364f40... Call method makeBigStringFrom in main class
+nano
+
+        }
+<<<<<<< HEAD
+System.out.println(SILab1_1.filterOddLengthStrings(list));
+=======
+System.out.println(SILab1_2.makeBigStringFrom(list));
+>>>>>>> f364f40 (Call method makeBigStringFrom in main class)
+    }
+} -> го избришав повикуањето на методот System.out.println(SILab1_1.filterOddLengthStrings(list));
+со цел да нема конфликт
+$ git add SlLab1Main.java
+$ git commit -m "Conflict Resolved"
+$ git rebase --continue
+25. $ git checkout master
+$ git merge bug2
+
+git log
+nano logs.txt
+$ git add logs.txt
